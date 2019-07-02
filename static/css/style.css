@@ -977,6 +977,13 @@ a:hover {
 //--//-->   CARD GENERAL
 ======================================*/
 
+.img .imgsize {
+  width: 400px; /* You can set the dimensions to whatever you want */
+  height: 400px;
+  object-fit: cover;
+}
+
+
 .card-box-a,
 .card-box-b,
 .card-box-d {
@@ -990,6 +997,9 @@ a:hover {
 .card-box-a .img-b,
 .card-box-b .img-a,
 .card-box-b .img-b {
+  width: 400px; /* You can set the dimensions to whatever you want */
+  height: 400px;
+  object-fit: cover;
   transition: .8s all ease-in-out;
 }
 
